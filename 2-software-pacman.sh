@@ -13,77 +13,117 @@ echo
 
 PKGS=(
 
-    # SYSTEM --------------------------------------------------------------
+#'alacritty'
+#'amule'
+'android-file-transfer'
+'arch-audit'
+'asbru-cm-git'
+'audacity'
+'audit'
+'authy'
+#'autofirma'
+'baobab'
+'bleachbit'
+'code'
+'converseen'
+'cpu-x'
+#'davinci-resolve'
+#'dracut'
+'dropbox'
+#'fancontrol-gui
+#'filelight
+'firefox'
+'firefox-i18n-es-es'
+'flameshot'
+#'flatpak
+#'frostwire
+#'geforcenow-electron
+'gimp'
+'git'
+'google-chrome'
+#'hdparm'
+#'heroic-games-launcher-bin'
+#'jdk-openjdk'
+'jdownloader2'
+'keepassxc'
+#'keyboard-visualizer-git'
+#'kicad'
+#'latte-dock'
+'libreoffice-fresh'
+'libreoffice-fresh-es'
+#'lm_sensors'
+'lynis'
+#'mangohud'
+'masterpdfeditor-free'
+'mcfly'
+#'mercury-browser-avx-bin'
+'microsoft-edge-stable-bin'
+#'mpc-qt'
+#'mystiq'
+'neofetch'
+#'nextcloud-client' #remove
+#'nodejs'
+#'npm'
+'obs-backgroundremoval'
+'obs-streamfx'
+'onefetch'
+'peek'
+'pikaur-git'
+#'preload'
+'qbittorrent'
+'qdirstat'
+'qmmp'
+#'rate-mirrors'
+#'recordmydesktop'
+#'remmina'
+#'revolt-desktop'
+#'ripcord'
+'rustdesk-bin'
+'smartgit'
+#'spacefm'
+#'spectacle'
+'spotify-adblock-git'
+#'stacer'
+#'superproductivity-bin'
+#'teamviewer'
+'telegram-desktop'
+'testdisk'
+#'thorium-browser-avx-bin'
+#'topgrade'
+'ufw'
+'ufw-extras'
+'ulauncher'
+#'urbanterror'
+#'variety'
+'webcord'
+'xonotic'
+'xonotic-data'
+#'yad'
+#'yakuake'
 
-    'linux-lts'             # Long term support kernel
+)
 
-    # TERMINAL UTILITIES --------------------------------------------------
+PKGS_UNINSTALL=(
 
-    'bleachbit'               # File deletion utility
-    'cmatrix'                 # The Matrix screen animation
-    'cronie'                  # cron jobs
-    'curl'                    # Remote content retrieval
-    'file-roller'              # Archive utility
-    'gtop'                    # System monitoring via terminal
-    'gufw'                    # Firewall manager
-    'hardinfo'                # Hardware info app
-    'htop'                    # Process viewer
-    'neofetch'                # Shows system info when you launch terminal
-    'ntp'                     # Network Time Protocol to set time via network.
-    'numlockx'                # Turns on numlock in X11
-    'p7zip'                   # 7z compression program
-    'rsync'                   # Remote file sync utility
-    'speedtest-cli'           # Internet speed via terminal
-    'terminus-font'           # Font package with some bigger fonts for login terminal
-    'unrar'                   # RAR compression program
-    'unzip'                   # Zip compression program
-    'wget'                    # Remote content retrieval
-    'terminator'              # Terminal emulator
-    'vim'                     # Terminal Editor
-    'zenity'                  # Display graphical dialog boxes via shell scripts
-    'zip'                     # Zip compression program
-    'zsh'                     # Interactive shell
-    'zsh-autosuggestions'     # Zsh Plugin
-    'zsh-syntax-highlighting' # Zsh Plugin
-
-    # GENERAL UTILITIES ---------------------------------------------------
-
-    'nautilus'              # Filesystem browser
-    'variety'               # Wallpaper changer
-    'clamav'                # Anti-virus
-
-    # DEVELOPMENT ---------------------------------------------------------
-
-    'gedit'                 # Text editor
-    'clang'                 # C Lang compiler
-    'cmake'                 # Cross-platform open-source make system
-    'code'                  # Visual Studio Code
-    'electron'              # Cross-platform development using Javascript
-    'git'                   # Version control system
-    'gcc'                   # C/C++ compiler
-    'glibc'                 # C libraries
-    'meld'                  # File/directory comparison
-    'nodejs'                # Javascript runtime environment
-    'npm'                   # Node package manager
-    'python'                # Scripting language
-    'yarn'                  # Dependency management (Hyper needs this)
-
-    # MEDIA ---------------------------------------------------------------
-
-    'celluloid'             # Video player
-    'feh'                   # Image viewer
-
-    # PRODUCTIVITY --------------------------------------------------------
-
-    'hunspell'              # Spellcheck libraries
-    'hunspell-en'           # English spellcheck library
-    'xpdf'                  # PDF viewer
+'nextcloud-client'
+'alacritty'
+#'gvim'
+'kate'
+#'micro'
+'ktorrent'
+'thunderbird'
+#'vim-runtime'
 
 )
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
     sudo pacman -S "$PKG" --noconfirm --needed
+done
+
+for PKG2 in "${PKGS_UNINSTALL[@]}"; do
+    echo "UNINSTALLING: ${PKG2}"
+    sudo pacman -Rn "$PKG2" --noconfirm
 done
 
 echo
