@@ -30,6 +30,7 @@ PKGS=(
 #'davinci-resolve'
 #'dracut'
 'dropbox'
+'fail2ban'
 #'fancontrol-gui
 #'filelight
 'firefox'
@@ -40,6 +41,7 @@ PKGS=(
 #'geforcenow-electron
 'gimp'
 'git'
+'github-desktop'
 'google-chrome'
 #'hdparm'
 #'heroic-games-launcher-bin'
@@ -57,11 +59,10 @@ PKGS=(
 'masterpdfeditor-free'
 'mcfly'
 #'mercury-browser-avx-bin'
-'microsoft-edge-stable-bin'
+#'microsoft-edge-stable-bin'
 #'mpc-qt'
 #'mystiq'
 'neofetch'
-#'nextcloud-client' #remove
 #'nodejs'
 #'npm'
 'obs-backgroundremoval'
@@ -79,7 +80,7 @@ PKGS=(
 #'revolt-desktop'
 #'ripcord'
 'rustdesk-bin'
-'smartgit'
+#'smartgit'
 #'spacefm'
 #'spectacle'
 'spotify-adblock-git'
@@ -96,8 +97,8 @@ PKGS=(
 #'urbanterror'
 #'variety'
 'webcord'
-'xonotic'
-'xonotic-data'
+#'xonotic'
+#'xonotic-data'
 #'yad'
 #'yakuake'
 
@@ -107,9 +108,11 @@ PKGS_UNINSTALL=(
 
 'nextcloud-client'
 'alacritty'
+'discord'
+'firedragon'
 #'gvim'
 'kate'
-#'micro'
+'micro'
 'ktorrent'
 'thunderbird'
 #'vim-runtime'
