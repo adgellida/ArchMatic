@@ -13,9 +13,10 @@ echo
 
 PKGS=(
 
-'kuro-electron'
+#'kuro-electron'
 'maldet'
 'freefilesync-bin'
+'qdiskinfo'
 'spotiflyer-bin'
 'xkill-shortcut'
 

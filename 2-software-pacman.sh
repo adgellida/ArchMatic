@@ -44,6 +44,7 @@ PKGS=(
 'git'
 'github-desktop'
 'google-chrome'
+'hardinfo2'
 #'hdparm'
 #'heroic-games-launcher-bin'
 #'jdk-openjdk'
