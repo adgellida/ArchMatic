@@ -13,6 +13,7 @@ echo
 
 PKGS=(
 
+'ente-auth-bin'
 #'kuro-electron'
 'maldet'
 'freefilesync-bin'
