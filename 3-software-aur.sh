@@ -16,9 +16,9 @@ PKGS=(
 'ente-auth-bin'
 #'kuro-electron'
 'maldet'
-'freefilesync-bin'
 'qdiskinfo'
 'spotiflyer-bin'
+'sysmontask'
 'xkill-shortcut'
 
 )
