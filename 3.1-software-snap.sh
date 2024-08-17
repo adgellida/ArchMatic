@@ -8,31 +8,19 @@
 #-------------------------------------------------------------------------
 
 echo
-echo "INSTALLING AUR SOFTWARE"
+echo "INSTALLING SNAP SOFTWARE"
 echo
 
 PKGS=(
 
-'ente-auth-bin'
-#'kuro-electron'
-'maldet'
-'qdiskinfo'
-'snapd'
-'spotiflyer-bin'
-'sysmontask'
-'xkill-shortcut'
+'acestreamplayer'
 
 )
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING AUR: ${PKG}"
-    sudo pikaur -S "$PKG" --noedit --noconfirm
+    sudo snap install "$PKG"
 done
-
-#Enable snap
-systemctl enable --now snapd.socket
-systemctl enable --now snapd.apparmor.service
-ln -s /var/lib/snapd/snap /snap
 
 echo
 echo "Done!"
