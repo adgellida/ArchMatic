@@ -108,15 +108,24 @@ PKGS=(
 
 PKGS_UNINSTALL=(
 
+'kde-games-meta'
 'nextcloud-client'
 'alacritty'
 'discord'
 'firedragon'
+'firedragon-bin'
 #'gvim'
 'kate'
-'micro'
 'ktorrent'
-'thunderbird'
+'elisa'
+'gpodder'
+'kamule'
+'luanti'
+'mari0'
+'minecraft-launcher'
+'mpv'
+'piper'
+'teeworlds'
 #'vim-runtime'
 
 )
