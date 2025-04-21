@@ -51,6 +51,7 @@ PKGS=(
 'jdownloader2'
 'keepassxc'
 #'keyboard-visualizer-git'
+'kleopatra'
 #'kicad'
 #'latte-dock'
 'libreoffice-fresh'
@@ -99,8 +100,8 @@ PKGS=(
 #'urbanterror'
 #'variety'
 'webcord'
-#'xonotic'
-#'xonotic-data'
+'xonotic'
+'xonotic-data'
 #'yad'
 #'yakuake'
 

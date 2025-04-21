@@ -26,13 +26,13 @@ PKGS=(
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING AUR: ${PKG}"
-    sudo pikaur -S "$PKG" --noedit --noconfirm
+    pikaur -S "$PKG" --noedit --noconfirm
 done
 
 #Enable snap
-systemctl enable --now snapd.socket
-systemctl enable --now snapd.apparmor.service
-ln -s /var/lib/snapd/snap /snap
+sudo systemctl enable --now snapd.socket
+sudo systemctl enable --now snapd.apparmor.service
+sudo ln -s /var/lib/snapd/snap /snap
 
 echo
 echo "Done!"
