@@ -37,7 +37,6 @@ PKGS=(
 'firefox-i18n-es-es'
 'flameshot'
 #'flatpak
-'freefilesync-bin'
 #'frostwire
 #'geforcenow-electron
 'gimp'

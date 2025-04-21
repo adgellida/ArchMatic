@@ -14,6 +14,7 @@ echo
 PKGS=(
 
 'ente-auth-bin'
+'freefilesync-bin'
 #'kuro-electron'
 'maldet'
 'qdiskinfo'
