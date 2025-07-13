@@ -8,29 +8,23 @@
 #-------------------------------------------------------------------------
 
 echo
-echo "INSTALLING AUR SOFTWARE"
+echo "CONFIGURING SOFTWARE"
 echo
 
-PKGS=(
+#Enable snap
+sudo systemctl enable --now snapd.socket
+sudo systemctl enable --now snapd.apparmor.service
+sudo ln -s /var/lib/snapd/snap /snap
 
-'ente-auth-bin'
-'freefilesync-bin'
-'k4dirstat'
-#'kuro-electron'
-'maldet'
-'qdiskinfo'
-'snapd'
-'spotiflyer-bin'
-'stacer-bin'
-'sysmontask'
-'xkill-shortcut'
-
-)
-
-for PKG in "${PKGS[@]}"; do
-    echo "INSTALLING AUR: ${PKG}"
-    pikaur -S "$PKG" --noedit --noconfirm
-done
+#Enable udiskie
+mkdir -p ~/.config/autostart && echo "[Desktop Entry]
+Type=Application
+Exec=udiskie -t
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Udiskie
+Comment=Montador de dispositivos" > ~/.config/autostart/udiskie.desktop
 
 echo
 echo "Done!"
