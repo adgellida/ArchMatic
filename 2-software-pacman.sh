@@ -115,7 +115,7 @@ PKGS_UNINSTALL=(
 'alacritty'
 'discord'
 'firedragon'
-'firedragon-bin'
+'firedragon-*'
 #'gvim'
 'kate'
 'ktorrent'
