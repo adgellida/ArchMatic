@@ -41,7 +41,8 @@ PKGS=(
 #'geforcenow-electron
 'gimp'
 'git'
-'github-desktop'
+'gitkraken'
+#'github-desktop'
 'google-chrome'
 'hardinfo2'
 #'hdparm'
