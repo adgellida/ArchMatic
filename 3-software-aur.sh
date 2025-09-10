@@ -13,6 +13,7 @@ echo
 
 PKGS=(
 
+'cursor-bin'
 'ente-auth-bin'
 'freefilesync-bin'
 'k4dirstat'
