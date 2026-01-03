@@ -21,7 +21,7 @@ PKGS=(
 'maldet'
 'qdiskinfo'
 'snapd'
-'spotiflyer-bin'
+'soundbound-app-bin'
 'stacer-bin'
 'sysmontask'
 'xkill-shortcut'
