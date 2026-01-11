@@ -13,24 +13,40 @@ echo
 
 PKGS=(
 
-'cursor-bin'
+'asbru-cm'
+'dropbox'
+#'cursor-bin'
 'ente-auth-bin'
 'freefilesync-bin'
+'gitkraken'
+'google-chrome'
+'hardinfo2'
 'k4dirstat'
 #'kuro-electron'
+'losslesscut-bin'
 'maldet'
+'masterpdfeditor-free'
+'mystiq'
+'perl-crypt-urandom'
+#'pikaur'
 'qdiskinfo'
-'snapd'
+'qdirstat'
+'rustdesk-bin'
+#'snapd'
 'soundbound-app-bin'
-'stacer-bin'
+'spotify-adblock-git'
+'superproductivity-bin'
+#'stacer-bin'
 'sysmontask'
+'ulauncher'
+'windsurf'
 'xkill-shortcut'
 
 )
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING AUR: ${PKG}"
-    pikaur -S "$PKG" --noedit --noconfirm
+    paru -S "$PKG" --noconfirm --needed
 done
 
 echo

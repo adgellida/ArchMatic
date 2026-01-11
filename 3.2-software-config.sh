@@ -12,9 +12,9 @@ echo "CONFIGURING SOFTWARE"
 echo
 
 #Enable snap
-sudo systemctl enable --now snapd.socket
-sudo systemctl enable --now snapd.apparmor.service
-sudo ln -s /var/lib/snapd/snap /snap
+#sudo systemctl enable --now snapd.socket
+#sudo systemctl enable --now snapd.apparmor.service
+#sudo ln -s /var/lib/snapd/snap /snap
 
 #Enable udiskie
 mkdir -p ~/.config/autostart && echo "[Desktop Entry]

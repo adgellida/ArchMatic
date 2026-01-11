@@ -13,7 +13,8 @@ echo
 
 PKGS=(
 
-'acestreamplayer'
+#'acestreamplayer'
+#'asbru'
 
 )
 
