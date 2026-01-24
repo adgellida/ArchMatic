@@ -16,6 +16,7 @@ PKGS=(
 #'alacritty'
 'amule'
 'android-file-transfer'
+'android-tools'
 'arch-audit'
 'audacity'
 'audit'
@@ -41,6 +42,7 @@ PKGS=(
 'git'
 #'github-desktop'
 'goverlay-git'
+#'gscan2pdf'            #scanner
 #'hdparm'
 #'heroic-games-launcher-bin'
 #'jdk-openjdk'
@@ -78,7 +80,8 @@ PKGS=(
 #'recordmydesktop'
 #'remmina'
 #'ripcord'
-#'smartgit'
+#'simple-scan'            #scanner
+#'skanlite'            #scanner
 'snapper' #####
 #'spacefm'
 #'spectacle'

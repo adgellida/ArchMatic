@@ -27,6 +27,7 @@ PKGS=(
 'maldet'
 'masterpdfeditor-free'
 'mystiq'
+#'naps2-bin'            #scanner
 'perl-crypt-urandom'
 #'pikaur'
 'qdiskinfo'
@@ -41,6 +42,7 @@ PKGS=(
 'ulauncher'
 'windsurf'
 'xkill-shortcut'
+#'xsane'            #scanner
 
 )
 
