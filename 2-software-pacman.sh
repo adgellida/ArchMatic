@@ -41,6 +41,7 @@ PKGS=(
 'gimp'
 'git'
 #'github-desktop'
+'google-chrome'
 'goverlay-git'
 #'gscan2pdf'            #scanner
 #'hdparm'
@@ -80,6 +81,7 @@ PKGS=(
 #'recordmydesktop'
 #'remmina'
 #'ripcord'
+#'samsung-unified-driver-scanner'
 #'simple-scan'            #scanner
 #'skanlite'            #scanner
 'snapper' #####
@@ -93,8 +95,8 @@ PKGS=(
 'thunderbird'
 #'topgrade'
 'udiskie'
-'ufw' #####
-'ufw-extras'
+#'ufw' #####
+#'ufw-extras'
 #'urbanterror'
 #'variety'
 'webcord'
@@ -120,6 +122,7 @@ PKGS_UNINSTALL=(
 #'kamule'
 #'luanti'
 #'mari0'
+#'micro'
 #'minecraft-launcher'
 #'mpv'
 #'piper'

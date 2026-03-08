@@ -19,7 +19,6 @@ PKGS=(
 'ente-auth-bin'
 'freefilesync-bin'
 'gitkraken'
-'google-chrome'
 'hardinfo2'
 'k4dirstat'
 #'kuro-electron'
@@ -39,7 +38,8 @@ PKGS=(
 'superproductivity-bin'
 #'stacer-bin'
 'sysmontask'
-'ulauncher'
+#'ulauncher'
+'vicinae-bin'
 'windsurf'
 'xkill-shortcut'
 #'xsane'            #scanner
