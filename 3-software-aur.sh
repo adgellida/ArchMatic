@@ -27,6 +27,7 @@ PKGS=(
 'masterpdfeditor-free'
 'mystiq'
 #'naps2-bin'            #scanner
+'pacseek'
 'perl-crypt-urandom'
 #'pikaur'
 'qdiskinfo'
@@ -40,7 +41,9 @@ PKGS=(
 'sysmontask'
 #'ulauncher'
 'vicinae-bin'
-'windsurf'
+#'windsurf'
+#'windsurf-electron-latest'
+'windsurf-next'
 'xkill-shortcut'
 #'xsane'            #scanner
 
