@@ -15,7 +15,6 @@ PKGS=(
 
 'asbru-cm'
 'dropbox'
-#'cursor-bin'
 'ente-auth-bin'
 'freefilesync-bin'
 'gitkraken'
@@ -33,6 +32,7 @@ PKGS=(
 'qdiskinfo'
 'qdirstat'
 'rustdesk-bin'
+'shelly-bin'
 #'snapd'
 'soundbound-app-bin'
 'spotify-adblock-git'
@@ -41,11 +41,15 @@ PKGS=(
 'sysmontask'
 #'ulauncher'
 'vicinae-bin'
-#'windsurf'
-#'windsurf-electron-latest'
-'windsurf-next'
 'xkill-shortcut'
 #'xsane'            #scanner
+
+##### IDE - AI
+'cursor-bin'
+'kiro-ide'
+'qoder-bin'
+'trae-bin'
+'devin-desktop'
 
 )
 
